@@ -10,10 +10,10 @@
   Example: "1100101" becomes "1001011"
 */
 
-function encrypt($string) {
+function awful_encrypt($string) {
 
 }
 
-function decrypt($string) {
+function awful_decrypt($string) {
 
 }

@@ -1,20 +1,20 @@
 <?php
-require "./encrypt.php";
+require "./AwfulEncrypt.php";
 
-class EncrypyTest extends PHPUnit_Framework_TestCase {
+class AwfulEncrypy_Test extends PHPUnit_Framework_TestCase {
 
   /**
    * @dataProvider testData
    */
   function testAwfulEncryption($clear, $expected) {
-    $this->assertEquals($expected, encrypt($clear));
+    $this->assertEquals($expected, awful_encrypt($clear));
   }
 
   /**
    * @dataProvider testData
    */
   function testAwfulDecryption($expected, $encrypted) {
-    $this->assertEquals($expected, decrypt($encrypted));
+    $this->assertEquals($expected, awful_decrypt($encrypted));
   }
 
   function testData() {
