@@ -1,5 +1,12 @@
 <?php
 
+/*
+ * Note: Functions in PHP typically use underscores while class methods 
+ * typically use CamelCase.
+ *
+ * Don't get me started... That's just the way it is.
+ */
+
 function add($one, $two) {
   // note the explicit return
   return $one + $two;
